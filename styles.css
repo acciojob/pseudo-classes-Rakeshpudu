@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+p:first-child{
+    background-color: black;
+    color: white;
+}
+p:last-child{
+    color: red;
+}
+.item:first-child{
+    background-color: white;
+}
+.item:last-child{
+    background-color: white;
+}
+.item:nth-child(even){
+    background-color: slategray;
+}
+.item:nth-child(3){
+    background-color: pink;
+}
+
+
